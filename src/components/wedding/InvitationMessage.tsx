@@ -29,20 +29,20 @@ const InvitationMessage = () => {
           </motion.span>
 
           <h2 className="font-display text-2xl sm:text-3xl text-accent mb-6">
-            You Are Cordially Invited
-          </h2>
+  Together with their families, joyfully invite you
+</h2>
 
-          <p className="font-body text-muted-foreground leading-relaxed text-sm sm:text-base">
-            With immense joy and blessings from our families, we invite you to
-            celebrate the union of{" "}
-            <span className="font-cursive text-xl text-accent">Priya</span> &{" "}
-            <span className="font-cursive text-xl text-accent">Arjun</span> as
-            they begin their beautiful journey together.
-          </p>
+<p className="font-body text-muted-foreground leading-relaxed text-sm sm:text-base">
+  With hearts full of love and gratitude, we warmly invite you to witness
+  and celebrate the sacred union of{" "}
+  <span className="font-cursive text-xl text-accent">Nandhukrishna</span> &{" "}
+  <span className="font-cursive text-xl text-accent">Sreelakshmi</span>, as they
+  embark on a beautiful journey of togetherness, love, and lifelong companionship.
+</p>
 
-          <p className="font-body text-muted-foreground mt-4 text-sm italic">
-            Your presence would be our greatest gift.
-          </p>
+<p className="font-body text-muted-foreground mt-4 text-sm italic">
+  Your presence and blessings will make this joyous occasion truly memorable.
+</p>
         </div>
       </motion.div>
     </section>

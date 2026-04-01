@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
-const WEDDING_DATE = new Date("2025-12-20T10:00:00");
+const WEDDING_DATE = new Date("2026-05-03T10:30:00");
 
 const Countdown = () => {
   const [time, setTime] = useState(getTimeLeft());
@@ -27,8 +27,8 @@ const Countdown = () => {
   const units = [
     { label: "Days", value: time.days },
     { label: "Hours", value: time.hours },
-    { label: "Minutes", value: time.minutes },
-    { label: "Seconds", value: time.seconds },
+    { label: "Mins", value: time.minutes },
+    { label: "Sec", value: time.seconds },
   ];
 
   return (

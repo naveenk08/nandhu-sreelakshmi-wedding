@@ -9,18 +9,18 @@ const Footer = () => {
     const ics = `BEGIN:VCALENDAR
 VERSION:2.0
 BEGIN:VEVENT
-DTSTART:20251220T100000
-DTEND:20251220T230000
-SUMMARY:Priya & Arjun's Wedding
-LOCATION:The Grand Palace Hall, 123 Royal Garden Road, Mumbai
-DESCRIPTION:Join us to celebrate the wedding of Priya & Arjun
+DTSTART:20260503T103000
+DTEND:20260503T230000
+SUMMARY:Nandhukrishna & Sreelakshmi's Wedding
+LOCATION:Sree Krishna Swamy Temple, Thodupuzha, Idukki
+DESCRIPTION:Join us to celebrate the wedding of Nandhukrishna & Sreelakshmi
 END:VEVENT
 END:VCALENDAR`;
     const blob = new Blob([ics], { type: "text/calendar" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "priya-arjun-wedding.ics";
+    a.download = "nandhukrishna-sreelakshmi-wedding.ics";
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -28,7 +28,7 @@ END:VCALENDAR`;
   const share = async () => {
     if (navigator.share) {
       await navigator.share({
-        title: "Priya & Arjun's Wedding",
+        title: "Nandhukrishna & Sreelakshmi's Wedding",
         text: "You're invited to our wedding! 💍",
         url: window.location.href,
       });
@@ -41,8 +41,8 @@ END:VCALENDAR`;
   return (
     <footer className="py-12 px-6 bg-accent text-accent-foreground text-center">
       <div className="max-w-lg mx-auto">
-        <h3 className="font-cursive text-4xl mb-4">Priya & Arjun</h3>
-        <p className="font-body text-sm opacity-80 mb-8">December 20, 2025</p>
+        <h3 className="font-cursive text-4xl mb-4">Nandhukrishna & Sreelakshmi</h3>
+        <p className="font-body text-sm opacity-80 mb-8">May 03, 2026</p>
 
         <div className="flex justify-center gap-3 mb-8">
           <motion.button

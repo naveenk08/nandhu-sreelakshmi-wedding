@@ -19,7 +19,9 @@ const Hero = () => {
   }, []);
 
   const scrollDown = () => {
-    document.getElementById("countdown")?.scrollIntoView({ behavior: "smooth" });
+    document
+      .getElementById("countdown")
+      ?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -51,7 +53,13 @@ const Hero = () => {
               style={{
                 left: "50%",
                 top: "40%",
-                backgroundColor: ["#D4AF37", "#F8C8DC", "#800020", "#FFD700", "#FFF8E7"][i % 5],
+                backgroundColor: [
+                  "#D4AF37",
+                  "#F8C8DC",
+                  "#800020",
+                  "#FFD700",
+                  "#FFF8E7",
+                ][i % 5],
               }}
               initial={{ x: 0, y: 0, opacity: 1, scale: 1 }}
               animate={{
@@ -79,7 +87,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Together with their families
+          Together with their beloved families
         </motion.p>
 
         <motion.h1
@@ -88,7 +96,7 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.3, duration: 1, ease: "easeOut" }}
         >
-          Priya
+          Nandhukrishna
         </motion.h1>
 
         <motion.p
@@ -106,7 +114,7 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.6, duration: 1, ease: "easeOut" }}
         >
-          Arjun
+          Sreelakshmi
         </motion.h1>
 
         <motion.p
@@ -115,7 +123,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 1 }}
         >
-          Request the pleasure of your company
+          Joyfully invite you to witness the beginning of their forever
         </motion.p>
 
         <motion.button

@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const photos = [
-  "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&h=400&fit=crop",
+  "/img1.jpg",
+  "/img2.jpg",
+  "/img3.jpg",
+  "/img4.jpg",
 ];
 
 const CoupleShowcase = () => {
