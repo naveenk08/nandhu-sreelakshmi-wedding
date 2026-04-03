@@ -40,7 +40,7 @@ const Countdown = () => {
         transition={{ duration: 0.8 }}
       >
         <h2 className="font-display text-3xl md:text-4xl text-accent mb-2">Save the Date</h2>
-        <p className="font-body text-muted-foreground mb-10 text-sm">December 20, 2025</p>
+        <p className="font-body text-muted-foreground mb-10 text-sm">May 03, 2026</p>
 
         <div className="flex justify-center gap-3 sm:gap-6">
           {units.map((u, i) => (
